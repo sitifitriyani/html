@@ -1,0 +1,907 @@
+@media screen and (max-width: 1343px) {
+  /* =========== RESVONSIVE HOME ============== */
+  #myVideo {
+    width: 90%;
+    height: 90%;
+  }
+  .intro {
+    padding: 250px 300px;
+  }
+  .intro h1 {
+    font-size: 80px;
+  }
+  .intro p {
+    font-size: 18px;
+  }
+  .article {
+    margin: 50px 0px;
+    padding: 50px;
+    padding-left: 10px;
+  }
+  .article-content {
+    padding: 9px 28px 9px 70px;
+    word-spacing: 9px;
+  }
+  .article-content h2 {
+    font-size: 30px;
+    line-height: 35px;
+  }
+  .article-content p {
+    padding: 35px 70px 20px 35px;
+    font-size: 18px;
+    line-height: 28px;
+  }
+  .button {
+    padding: 13px 23px;
+    font-size: 21px;
+  }
+  #my-btn img {
+    bottom: 18px;
+    right: 18px;
+    padding: 13px;
+    width: 60px;
+  }
+  .disclaimer {
+    padding: 9px;
+  }
+
+  /* ========== RESPONSIVE ABOUT =========== */
+  .title h3 {
+    font-size: 90px;
+    padding-left: 90px;
+  }
+  .article-about {
+    flex: 1;
+    padding: 55px;
+  }
+  .article-about h2 {
+    font-size: 35px;
+  }
+  .article-about p {
+    line-height: 1.4;
+  }
+  #achieve-container {
+    gap: 10px;
+    padding: 100px 0;
+  }
+  .title-article {
+    font-size: 60px;
+  }
+  #achieve {
+    gap: 40px;
+  }
+  .kolom {
+    gap: 8px;
+    width: 22vw;
+  }
+  .kolom h2 {
+    padding: 20px;
+  }
+  /* ========== RESPONSIVE TITLE ========== */
+  .country-title {
+    padding: 19px 9px 0px 9px;
+  }
+  .country-flag {
+    width: 21vw;
+    height: 24vh;
+  }
+  .country-card {
+    margin: 0px;
+  }
+  .country-detail {
+    line-height: 23px;
+    padding: 18px;
+  }
+}
+@media screen and (max-width: 1080px) {
+  /* ========== RESPONSIVE HOME =========== */
+  header .logo {
+    margin-left: 40px;
+  }
+  .logo img {
+    width: 135px;
+  }
+  .logo h1 {
+    font-size: 30px;
+  }
+  header ul {
+    padding-right: 10px;
+  }
+  header ul li {
+    font-size: 18px;
+  }
+  header ul li a {
+    font-weight: 350;
+    padding: 9px 14px;
+  }
+  #myVideo {
+    width: 70%;
+    height: 70%;
+  }
+  .intro {
+    padding: 250px 250px;
+  }
+  .intro h1 {
+    font-size: 70px;
+  }
+  .intro p {
+    font-size: 16px;
+  }
+  .intro h2 {
+    font-size: 18px;
+  }
+  .article-content {
+    padding: 9px 28px 9px 70px;
+    word-spacing: 9px;
+  }
+  .article-content h2 {
+    font-size: 28px;
+  }
+  .article-content p {
+    padding: 32px 20px 20px 35px;
+    font-size: 17px;
+    line-height: 26px;
+  }
+  .button {
+    font-size: 19px;
+  }
+  #my-btn img {
+    width: 55px;
+  }
+  .box-footer {
+    padding: 28px;
+    margin: 9px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 30px;
+  }
+  /* ============== RESPONSIVE ABOUT =============== */
+  .article-about {
+    padding: 50px;
+  }
+  .article-about h2 {
+    font-size: 31px;
+  }
+  #achieve-container {
+    gap: 10px;
+    padding: 80px 0px;
+  }
+  #achieve {
+    gap: 40px;
+  }
+  .kolom {
+    gap: 8px;
+    width: 22vw;
+  }
+  .kolom h2 {
+    padding: 20px;
+  }
+  .kolom p {
+    font-size: 18px;
+  }
+  .btn-achieve {
+    padding: 7px 18px;
+    font-size: 18px;
+  }
+  /* ============ RESPONSIVE COUNTRY ============= */
+  .country-title {
+    padding: 18px 8px 0px 8px;
+    margin: 7px;
+  }
+  .country-flag {
+    width: 20vw;
+    height: 21vh;
+  }
+  .country-name {
+    font-size: 25px;
+    margin: 17px 0;
+    width: 40vh;
+  }
+  .country-detail {
+    line-height: 20px;
+  }
+  /* =========== RESPONSIVE CONTACT US ===========  */
+  input,
+  select,
+  textarea {
+    font-size: 30px;
+    border-radius: 5px;
+  }
+  button {
+    font-size: 28px;
+  }
+  button:hover {
+    background-color: #337a36;
+  }
+}
+@media screen and (max-width: 965px) {
+  /* hamburger menu */
+  header ul {
+    position: fixed;
+    top: 100px;
+    right: -100%;
+    background: rgba(0, 0, 0, 0.5);
+    height: calc(100vh - 100px);
+    width: 50%;
+    flex-direction: column;
+    align-items: center;
+    transition: right 0.5s linear; /* agar jika di pindahkan cursor atau di hover tidak sekilat jadi seperti ada jeda */
+  }
+  header .hamburger {
+    display: block;
+    width: 100px;
+    text-align: center;
+  }
+  #chk1:checked ~ ul {
+    right: 0;
+  }
+  /* ================ RESPONSIVE HOME ============== */
+  .intro {
+    padding: 250px 160px;
+  }
+  .article {
+    padding-right: 3px;
+  }
+  .article-content {
+    padding: 10px 20px 10px 70px;
+    word-spacing: 9px;
+    letter-spacing: 0.8px;
+  }
+  .article-content h2 {
+    font-size: 35px;
+  }
+  .article-content p {
+    padding: 30px 80px 20px 35px;
+    font-size: 18px;
+    line-height: 25px;
+  }
+  #my-btn img {
+    bottom: 18px;
+    right: 18px;
+    padding: 13px;
+    width: 50px;
+  }
+  .box-footer {
+    padding: 30px;
+  }
+  /* ========== RESPONSIVE ABOUT  ========== */
+  .title h3 {
+    font-size: 80px;
+  }
+  .article-about p {
+    font-size: 19px;
+  }
+  .btn-article-about {
+    font-size: 18px;
+    padding: 9px 48px;
+  }
+  #achieve-container {
+    gap: 9px;
+    padding: 70px 0;
+  }
+  #achieve {
+    gap: 30px;
+  }
+  .kolom {
+    gap: 10px;
+    padding: 40px;
+    width: 30vw;
+  }
+  .kolom h2 {
+    padding: 20px;
+  }
+  /* ======== RESPONSIVE COUNTRY ========= */
+  .country-title {
+    padding: 20px 10px 0px 10px;
+    margin: 10px;
+  }
+  .country-flag {
+    width: 30vw;
+    height: 24vh;
+  }
+  .country-name {
+    font-size: 30px;
+    margin: 20px 0;
+    width: 50vh;
+  }
+  .country-card {
+    margin: 10px;
+  }
+  .country-detail {
+    line-height: 20px;
+    padding: 17px;
+  }
+}
+@media screen and (max-width: 780px) {
+  /* ======= RESPONSIVE HOME =========== */
+  header .logo {
+    margin-left: 30px;
+  }
+  .logo img {
+    width: 120px;
+  }
+  .logo h1 {
+    font-size: 27px;
+  }
+  #myVideo {
+    width: 60%;
+    height: 60%;
+  }
+  .intro {
+    padding: 250px 100px;
+  }
+  .intro h1 {
+    font-size: 65px;
+  }
+  .intro p {
+    font-size: 16px;
+  }
+  .article {
+    margin: 0px;
+    display: block;
+    padding-left: 25px;
+    align-items: center;
+    text-align: center;
+  }
+  .img img {
+    width: 70vw;
+    height: 50vh;
+  }
+  .article-content {
+    padding: 9px 25px 9px 60px;
+    word-spacing: 5px;
+  }
+  .article-content h2 {
+    font-size: 30px;
+    line-height: 35px;
+    padding-right: 15px;
+  }
+  .article-content p {
+    padding: 35px 70px 20px 30px;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: justify;
+  }
+  .button {
+    padding: 10px 20px;
+    font-size: 20px;
+  }
+  #my-btn img {
+    bottom: 15px;
+    right: 15px;
+    padding: 10px;
+    width: 45px;
+  }
+  footer {
+    line-height: 28px;
+  }
+  .box-footer {
+    padding: 25px;
+    margin: 7px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 28px;
+  }
+  .disclaimer {
+    padding: 10px;
+  }
+  /* ========= RESPONSIVE ABOUT ========== */
+  .nav {
+    height: 55vh;
+  }
+  .title {
+    top: 40%;
+  }
+  .title h3 {
+    font-size: 70px;
+  }
+  .article-about h2 {
+    font-size: 30px;
+  }
+
+  .article-about p {
+    font-size: 16px;
+  }
+  .btn-article-about {
+    font-size: 15px;
+    padding: 9px 48px;
+  }
+  .kolom {
+    gap: 8px;
+    padding: 30px;
+    font-size: 15px;
+  }
+  .kolom img {
+    width: 15vw;
+  }
+  /* ======== RESPONSIVE COUNTRY ========== */
+  .country-title {
+    padding: 18px 8px 0px 8px;
+    margin: 7px;
+  }
+  .country-flag {
+    width: 25vw;
+    height: 21vh;
+  }
+  .country-name {
+    font-size: 25px;
+    margin: 17px 0;
+    width: 40vh;
+  }
+  .country-detail {
+    line-height: 20px;
+  }
+  /* =========== RESPONSIVE CONTACT US ===========  */
+  input,
+  select,
+  textarea {
+    font-size: 27px;
+    border-radius: 5px;
+  }
+  button {
+    font-size: 25px;
+  }
+}
+@media screen and (max-width: 625px) {
+  /* ========= RESPONSIVE HOME ========= */
+  header .logo {
+    margin-left: 8px;
+  }
+  #myVideo {
+    width: 50%;
+    height: 50%;
+  }
+  .intro {
+    padding: 250px 70px;
+  }
+  .intro h1 {
+    font-size: 55px;
+  }
+  .intro p {
+    font-size: 14px;
+  }
+  .img img {
+    width: 70vw;
+    height: 40vh;
+  }
+  .article {
+    margin: 0px;
+    padding-left: 25px;
+  }
+  .article-content {
+    padding: 9px 25px 9px 60px;
+    word-spacing: 3px;
+  }
+  .article-content h2 {
+    font-size: 25px;
+    line-height: 30px;
+    padding-right: 15px;
+  }
+  .article-content p {
+    padding: 35px 70px 20px 30px;
+    font-size: 17px;
+    line-height: 25px;
+  }
+  .button {
+    padding: 10px 20px;
+    font-size: 20px;
+  }
+  #my-btn img {
+    bottom: 13px;
+    right: 13px;
+    padding: 8px;
+    width: 40px;
+  }
+  .box-footer {
+    padding: 20px;
+    margin: 4px;
+    font-size: 14px;
+    letter-spacing: 0.8px;
+    line-height: 28px;
+  }
+  .disclaimer {
+    padding: 7px;
+    font-size: 15px;
+  }
+  /* ========= RESPONSIVE ABOUT ========= */
+  .nav {
+    height: 50vh;
+  }
+  .title h3 {
+    font-size: 70px;
+    padding-left: 60px;
+  }
+  #informasi {
+    display: block;
+  }
+  #achieve {
+    gap: 30px;
+  }
+  .title-article {
+    font-size: 45px;
+  }
+  .kolom {
+    padding: 30px;
+    font-size: 16px;
+  }
+  .kolom h2 {
+    padding: 0%;
+    font-size: 20px;
+  }
+  .kolom p {
+    padding: 7px;
+    line-height: 20px;
+    font-size: 15px;
+  }
+  .btn-achieve {
+    padding: 6px 18px;
+    font-size: 16px;
+  }
+  /* ========= RESPONSIVE COUNTRY ========== */
+  .country-title {
+    padding: 20px 10px 0px 10px;
+    margin: 10px;
+  }
+  .country-flag {
+    width: 45vw;
+    height: 23vh;
+  }
+  .country-name {
+    font-size: 30px;
+    margin: 20px 0;
+    width: 50vh;
+  }
+  .country-card {
+    margin: 10px;
+  }
+  .country-detail {
+    line-height: 20px;
+    padding: 17px;
+  }
+  /* =========== RESPONSIVE CONTACT US ===========  */
+  input,
+  select,
+  textarea {
+    font-size: 22px;
+    border-radius: 5px;
+  }
+  button {
+    font-size: 22px;
+  }
+}
+@media screen and (max-width: 510px) {
+  /* =========== RESPONSIVE HOME ============ */
+  .logo img {
+    width: 100px;
+  }
+  .logo h1 {
+    font-size: 23px;
+  }
+  #myVideo {
+    width: 40%;
+    height: 40%;
+  }
+  .intro {
+    padding: 250px 80px;
+  }
+  .intro h1 {
+    font-size: 48px;
+  }
+  .intro p {
+    font-size: 14px;
+  }
+  .img img {
+    width: 70vw;
+    height: 35vh;
+  }
+  .article {
+    margin: 0px;
+    display: block;
+    padding-left: 20px;
+    align-items: center;
+    text-align: center;
+  }
+  .article-content {
+    padding: 9px 25px 9px 60px;
+    word-spacing: 3px;
+  }
+  .article-content h2 {
+    font-size: 22px;
+    line-height: 25px;
+    padding-right: 10px;
+  }
+  .article-content p {
+    padding: 30px 60px 18px 20px;
+    font-size: 15px;
+    line-height: 20px;
+  }
+  .button {
+    padding: 8px 18px;
+    font-size: 18px;
+  }
+  #my-btn img {
+    bottom: 11px;
+    right: 11px;
+    padding: 6px;
+    width: 45px;
+  }
+  .box-footer {
+    padding: 10px;
+    margin: 3px;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    line-height: 25px;
+  }
+  .disclaimer {
+    padding: 5px;
+    font-size: 12px;
+  }
+  /* =========== RESPONSIVE ABOUT =========== */
+  .title h3 {
+    font-size: 55px;
+    padding-left: 30px;
+  }
+
+  .title-article {
+    font-size: 35px;
+  }
+  .kolom {
+    font-size: 16px;
+    width: 50vw;
+  }
+  .kolom img {
+    width: 20vw;
+    padding: 0%;
+  }
+  .kolom h2 {
+    font-size: 20px;
+  }
+  .kolom p {
+    padding: 0px;
+  }
+  /* =========== RESPONSIVE CONTACT US ===========  */
+  input,
+  select,
+  textarea {
+    font-size: 18px;
+    border-radius: 5px;
+  }
+  button {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .logo img {
+    width: 90px;
+  }
+  .logo h1 {
+    font-size: 20px;
+  }
+  header .logo {
+    margin-left: 5px;
+  }
+  #myVideo {
+    width: 40%;
+    height: 40%;
+  }
+  .intro {
+    padding: 250px 70px;
+  }
+  .intro h1 {
+    font-size: 44px;
+  }
+  .intro h2 {
+    font-size: 15px;
+  }
+  .intro p {
+    font-size: 10px;
+  }
+  .img img {
+    width: 70vw;
+    height: 30vh;
+  }
+  .article {
+    padding-left: 18px;
+  }
+  .article-content {
+    padding: 0px 5px 2px 19px;
+    word-spacing: 3px;
+  }
+  .article-content h2 {
+    font-size: 17px;
+    line-height: 30px;
+    padding-right: 15px;
+  }
+  .article-content p {
+    padding: 10px 40px 20px 10px;
+    font-size: 10px;
+    line-height: 12px;
+  }
+  .button {
+    padding: 3px 13px;
+    font-size: 13px;
+  }
+  .box-footer {
+    padding: 10px;
+    margin: 2px;
+    font-size: 7px;
+    letter-spacing: 0.3px;
+    line-height: 14px;
+  }
+  .disclaimer {
+    padding: 2px;
+    font-size: 9px;
+  }
+  .kolom {
+    padding: 30px;
+    width: 50vw;
+  }
+  .kolom p {
+    line-height: 22px;
+  }
+  /* ========== RESPONSIVE COUNTRY =========== */
+  .country-flag {
+    width: 50vw;
+    height: 22vh;
+  }
+  .country-name {
+    width: 80px;
+    font-size: 28px;
+  }
+  .country-detail {
+    margin-left: 40px;
+    width: 70vw;
+  }
+  .country-title {
+    padding: 0px;
+  }
+         /* =========== RESPONSIVE CONTACT US ===========  */
+         input, select, textarea {
+          font-size: 12px;
+          border-radius: 5px;
+        }
+        button {
+          font-size: 12px;
+        }
+    
+  
+}
+@media screen and (max-width: 320px) {
+  /* =========== RESPONSIVE HOME ============ */
+  .logo img {
+    width: 80px;
+  }
+  .logo h1 {
+    font-size: 17px;
+    padding-left: 3px;
+  }
+  #myVideo {
+    width: 30%;
+    height: 30%;
+  }
+  .intro {
+    padding: 250px 60px;
+  }
+  .intro h1 {
+    font-size: 40px;
+  }
+  .intro h2 {
+    font-size: 15px;
+  }
+  .intro p {
+    font-size: 10px;
+  }
+  .img img {
+    width: 70vw;
+    height: 30vh;
+  }
+  .article {
+    padding-left: 18px;
+  }
+  .article-content {
+    padding: 0px 5px 2px 19px;
+    word-spacing: 3px;
+  }
+  .article-content h2 {
+    font-size: 17px;
+    line-height: 20px;
+    padding-right: 15px;
+  }
+  .article-content p {
+    padding: 10px 40px 20px 10px;
+    font-size: 10px;
+    line-height: 12px;
+  }
+  .button {
+    padding: 3px 13px;
+    font-size: 13px;
+  }
+  #my-btn img {
+    bottom: 7px;
+    right: 7px;
+    padding: 4px;
+    width: 40px;
+  }
+  .box-footer {
+    padding: 10px;
+    margin: 2px;
+    font-size: 7px;
+    letter-spacing: 0.3px;
+    line-height: 14px;
+  }
+  .disclaimer {
+    padding: 2px;
+    font-size: 9px;
+  }
+  /* ========= RESPONSIVE ABOUT ========= */
+  .nav {
+    height: 40vh;
+  }
+  .nav img {
+    height: 70vh;
+  }
+  .title h3 {
+    font-size: 40px;
+    padding-left: 10px;
+  }
+  .article-about {
+    padding: 30px;
+  }
+  .article-about h2 {
+    font-size: 28px;
+  }
+  .article-about p {
+    font-size: 13px;
+    line-height: 1.2;
+    padding: 15px 0px 30px 30px;
+  }
+  .btn-article-about {
+    font-size: 13px;
+    padding: 4px 20px;
+  }
+  #achieve-container {
+    padding: 30px 0px;
+  }
+  .title-article {
+    font-size: 30px;
+  }
+  .kolom {
+    padding: 30px;
+    width: 50vw;
+  }
+  .kolom h2 {
+    font-size: 16px;
+  }
+  .kolom p {
+    line-height: 14px;
+    font-size: 10px;
+  }
+  /* ========== RESPONSIVE COUNTRY =========== */
+  .country-flag {
+    width: 40vw;
+    height: 16vh;
+  }
+  .country-name {
+    font-size: 20px;
+    width: 60px;
+  }
+  .country-detail {
+    line-height: 15px;
+    font-size: 13px;
+    margin-left: 40px;
+    width: 70vw;
+  }
+         /* =========== RESPONSIVE CONTACT US ===========  */
+         form {
+          padding: 90px;
+         }        
+         input, select, textarea {
+          font-size: 10px;
+          border-radius: 5px;
+        }
+        button {
+          font-size: 10px;
+        }
+    
+  
+}
